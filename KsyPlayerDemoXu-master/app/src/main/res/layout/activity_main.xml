@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sy.ksyplayerdemoxu.MainActivity">
+    <Button
+        android:id="@+id/button_moredis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="时间段测试"/>
+    <Button
+        android:id="@+id/button_onedis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试单视频"
+        android:layout_marginTop="6dip"
+        android:layout_below="@+id/button_moredis"/>
+    <Button
+        android:id="@+id/bt_networkplayer"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:text="使用金山云测试"
+        android:layout_below="@+id/button_onedis"/>
+    <Button
+        android:id="@+id/bt_lingyun"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:text="检测语音"
+        android:layout_below="@+id/bt_networkplayer"/>
+    <Button
+        android:id="@+id/tb_localplayer"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:layout_below="@+id/bt_lingyun"
+        android:text="测试播放本地视频"/>
+
+
+
+
+</RelativeLayout>

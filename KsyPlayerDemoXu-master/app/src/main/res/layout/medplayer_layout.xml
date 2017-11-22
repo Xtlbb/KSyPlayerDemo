@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff">
+    <RelativeLayout
+        android:layout_width="500dip"
+        android:layout_height="400dip">
+        <com.ksyun.media.player.KSYTextureView
+            android:id="@+id/texture_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            tools:targetApi="ice_cream_sandwich"/>
+    </RelativeLayout>
+    <Button
+        android:id="@+id/bt_startservice"
+        android:layout_width="match_parent"
+        android:layout_height="60dip" />
+
+</LinearLayout>

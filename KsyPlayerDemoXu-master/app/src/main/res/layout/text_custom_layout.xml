@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/aroot_player"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/button_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/tbutton_add1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加播放1" />
+
+        <Button
+            android:id="@+id/tbutton_exit1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="结束播放1" />
+
+        <Button
+            android:id="@+id/tbutton_add2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加播放2" />
+
+        <Button
+            android:id="@+id/tbutton_exit2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="结束播放2" />
+
+        <Button
+            android:id="@+id/tbutton_add3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="添加播放3" />
+
+        <Button
+            android:id="@+id/tbutton_exit3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="结束播放3" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_custom"
+    android:layout_width="600dip"
+    android:layout_height="600dip"
+    android:background="@color/colorAccent">
+    <Button
+        android:layout_width="300dip"
+        android:layout_height="200dip" />
+    <!--<com.ksyun.media.player.KSYTextureView-->
+        <!--android:id="@+id/texture_view_palyer_custom"-->
+        <!--android:layout_width="500dip"-->
+        <!--android:layout_height="500dip"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--/>-->
+
+</RelativeLayout>
